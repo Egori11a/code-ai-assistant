@@ -1,0 +1,42 @@
+# Файлы окружения
+.env
+.env.local
+.env.development
+.env.production
+
+# Зависимости
+node_modules/
+dist/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Тестовые покрытия
+coverage/
+*.lcov
+
+# Сгенерированные файлы
+*.js.map
+*.css.map
+
+# Билды и артефакты
+build/
+out/
+.next/
+.nuxt/
+
+# Дополнительно для Vite
+.cache/
+.temp/
